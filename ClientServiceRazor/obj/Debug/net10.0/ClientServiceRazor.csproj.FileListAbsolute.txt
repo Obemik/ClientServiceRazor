@@ -534,3 +534,4 @@ C:\Users\User\RiderProjects\ClientServiceRazor\ClientServiceRazor\obj\Debug\net1
 C:\Users\User\RiderProjects\ClientServiceRazor\ClientServiceRazor\obj\Debug\net10.0\ClientServiceRazor.pdb
 C:\Users\User\RiderProjects\ClientServiceRazor\ClientServiceRazor\obj\Debug\net10.0\ClientServiceRazor.genruntimeconfig.cache
 C:\Users\User\RiderProjects\ClientServiceRazor\ClientServiceRazor\obj\Debug\net10.0\ref\ClientServiceRazor.dll
+C:\Users\User\RiderProjects\ClientServiceRazor\ClientServiceRazor\obj\Debug\net10.0\ClientServiceRazor.sourcelink.json

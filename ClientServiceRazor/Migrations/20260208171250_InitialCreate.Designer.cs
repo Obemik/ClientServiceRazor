@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ClientServiceRazor.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260207134305_InitialCreate")]
+    [Migration("20260208171250_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -34,46 +34,51 @@ namespace ClientServiceRazor.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Apartment")
-                        .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Area")
-                        .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("Building")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("City")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<int>("ClientId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Country")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Entrance")
-                        .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(10)
+                        .HasColumnType("varchar(10)");
 
                     b.Property<string>("Region")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("Room")
-                        .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("Street")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("timestamp with time zone");
@@ -292,13 +297,13 @@ namespace ClientServiceRazor.Migrations
             modelBuilder.Entity("ClientServiceRazor.Features.Clients.Models.ClientFinanceAccount", b =>
                 {
                     b.HasOne("ClientServiceRazor.Features.Clients.Models.Client", "Client")
-                        .WithMany()
+                        .WithMany("ClientFinanceAccounts")
                         .HasForeignKey("ClientId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("ClientServiceRazor.Features.Clients.Models.FinanceAccount", "FinanceAccount")
-                        .WithMany()
+                        .WithMany("ClientFinanceAccounts")
                         .HasForeignKey("FinanceAccountId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -342,7 +347,14 @@ namespace ClientServiceRazor.Migrations
                 {
                     b.Navigation("Address");
 
+                    b.Navigation("ClientFinanceAccounts");
+
                     b.Navigation("Phones");
+                });
+
+            modelBuilder.Entity("ClientServiceRazor.Features.Clients.Models.FinanceAccount", b =>
+                {
+                    b.Navigation("ClientFinanceAccounts");
                 });
 
             modelBuilder.Entity("ClientServiceRazor.Features.Users.Models.Role", b =>
