@@ -1,0 +1,83 @@
+﻿@page "{id:int}"
+@model ClientServiceRazor.Features.Clients.Pages.Details
+@using ClientServiceRazor.Features.Clients.Models
+
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Client Details";
+    //ViewData.TemplateInfo.HtmlFieldPrefix = "PhoneForm";
+}
+
+<h2>Client Details</h2>
+<form method="post" asp-route-id="@RouteData.Values["id"]">
+    @Html.AntiForgeryToken()
+    <div>
+        <label>Surname</label>
+        <input asp-for="NewClient.Surname">
+        <span asp-validation-for="NewClient.Surname"></span>
+    </div>
+    <div>
+        <label>First Name</label>
+        <input asp-for="NewClient.FirstName">
+        <span asp-validation-for="NewClient.FirstName"></span>
+    </div>
+    <div>
+        <label>Patronymic</label>
+        <input asp-for="NewClient.Patronymic">
+        <span asp-validation-for="NewClient.Patronymic"></span>
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="NewClient.Email">
+        <span asp-validation-for="NewClient.Email"></span>
+    </div>
+    <div>
+        <label>Birth Date</label>
+        <input asp-for="NewClient.BirthDate">
+        <span asp-validation-for="NewClient.BirthDate"></span>
+    </div>
+    <button type="submit">Save</button>
+    <a asp-page="/Features/Clients/Pages/Address" asp-route-id="@RouteData.Values["id"]">Edit Address</a>
+</form>
+
+<div>
+    <form method="post" asp-page-handler="ShowPhoneForm" asp-route-id="@RouteData.Values["id"]">
+        <button type="submit">Add Phone</button>
+    </form>
+</div>
+
+@if (Model.ShowPhoneForm)
+{
+    <form method="post" asp-page-handler="AddPhone" asp-route-id="@RouteData.Values["id"]">
+        @Html.AntiForgeryToken()
+        <div>
+            <label>Phone Number</label>
+            <input asp-for="NewPhone.Number"/>
+        </div>
+        <div>
+            <label>Country Code</label>
+            <select asp-for="NewPhone.CountryCode"
+                    asp-items="Html.GetEnumSelectList<CountryCode>()">
+            </select>
+        </div>
+        <button type="submit">Save Phone</button>
+    </form>
+}
+
+<table>
+    <thead>
+    <tr>
+        <th>Phone Number</th>
+        <th>Country Code</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var phone in Model.Phones)
+    {
+        <tr>
+            <td>@phone.Number</td>
+            <td>@phone.CountryCode</td>
+        </tr>
+    }
+    </tbody>
+</table>

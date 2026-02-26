@@ -8,7 +8,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9483288-2294-4df1-9c19-fc303e99d813" name="Changes" comment="" />
+    <list default="true" id="e9483288-2294-4df1-9c19-fc303e99d813" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Address.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Address.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Details.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Finances.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Finances.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/AdressViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/ClientViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/PhoneViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/ClientServiceRazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/ClientServiceRazor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ref/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ref/ClientServiceRazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/refint/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/refint/ClientServiceRazor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,21 +55,24 @@
       <entry key="_C:/Users/User/RiderProjects/ClientServiceRazor" value="38qbbG1OKvmzGOhNaU2i7Ql4uxG" />
     </persistenceIdMap>
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Obemik"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Obemik&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Obemik/ClientServiceRazor.git",
-    "accountId": "c1720919-0061-4811-b5c7-0b986ca790d0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Obemik/ClientServiceRazor.git&quot;,
+    &quot;accountId&quot;: &quot;c1720919-0061-4811-b5c7-0b986ca790d0&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Data/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Models/Address.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,9 +82,12 @@
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Models/Phone.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/AdressViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/ClientViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/Role.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/Status.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/PhoneViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/AddressTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/ClientTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/FinanceAccountTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,36 +112,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Docker Image (1).executor": "Run",
-    "Docker.Docker Image.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Shell Script.Create Postgres Container.executor": "Run",
-    "Shell Script.Database Update.executor": "Run",
-    "Shell Script.Migrations InitialCreate.executor": "Run",
-    "Shell Script.Migrations Remove.executor": "Run",
-    "Shell Script.Start Postgres Container.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ClientServiceRazor: https.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Docker Image (1).executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Docker Image.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Shell Script.Create Postgres Container.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Database Update.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Migrations InitialCreate.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Migrations Remove.executor&quot;: &quot;Run&quot;,
+    &quot;Shell Script.Start Postgres Container.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Shell Script.Database Update">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.ClientServiceRazor: https">
     <configuration name="ClientServiceRazor: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ClientServiceRazor/ClientServiceRazor.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -264,7 +308,21 @@
       <workItem from="1770353956501" duration="4051000" />
       <workItem from="1770384801545" duration="7000" />
       <workItem from="1770470602364" duration="6940000" />
-      <workItem from="1770566374066" duration="3762000" />
+      <workItem from="1770566374066" duration="3920000" />
+      <workItem from="1770739701257" duration="9119000" />
+      <workItem from="1770911773463" duration="4075000" />
+      <workItem from="1771074957388" duration="8574000" />
+      <workItem from="1771344853403" duration="87000" />
+      <workItem from="1771344983956" duration="1937000" />
+      <workItem from="1771351643775" duration="2810000" />
+      <workItem from="1771679640881" duration="8489000" />
+      <workItem from="1771712945553" duration="931000" />
+      <workItem from="1771794620542" duration="910000" />
+      <workItem from="1771866800977" duration="1213000" />
+      <workItem from="1771947814027" duration="4965000" />
+      <workItem from="1771965325286" duration="1686000" />
+      <workItem from="1772024774904" duration="3614000" />
+      <workItem from="1772138370534" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="homeworks done">
       <option name="closed" value="true" />
@@ -290,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770569665284</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor database schema and update migration files for improved structure and constraints">
+      <option name="closed" value="true" />
+      <created>1770570800422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770570800422</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +369,8 @@
     <MESSAGE value="homeworks done" />
     <MESSAGE value="add initial project files and configuration for ClientServiceRazor" />
     <MESSAGE value="update .gitignore and workspace.xml for improved file management and IDE settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore and workspace.xml for improved file management and IDE settings" />
+    <MESSAGE value="refactor database schema and update migration files for improved structure and constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor database schema and update migration files for improved structure and constraints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

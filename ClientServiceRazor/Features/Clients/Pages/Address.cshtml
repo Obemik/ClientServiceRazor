@@ -1,0 +1,72 @@
+﻿@page "{id:int}"
+@model ClientServiceRazor.Features.Clients.Pages.AddressPage
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Client Address";
+}
+
+<h2>@Model.ClientFullName</h2>
+<h3>Address</h3>
+
+<form method="post" asp-route-id="@RouteData.Values["id"]">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label>Country</label>
+        <input asp-for="AddressModel.Country">
+        <span asp-validation-for="AddressModel.Country"></span>
+    </div>
+    <div>
+        <label>Region</label>
+        <input asp-for="AddressModel.Region">
+        <span asp-validation-for="AddressModel.Region"></span>
+    </div>
+    <div>
+        <label>Area</label>
+        <input asp-for="AddressModel.Area">
+        <span asp-validation-for="AddressModel.Area"></span>
+    </div>
+    <div>
+        <label>City</label>
+        <input asp-for="AddressModel.City">
+        <span asp-validation-for="AddressModel.City"></span>
+    </div>
+    <div>
+        <label>Street</label>
+        <input asp-for="AddressModel.Street">
+        <span asp-validation-for="AddressModel.Street"></span>
+    </div>
+    <div>
+        <label>Building</label>
+        <input asp-for="AddressModel.Building">
+        <span asp-validation-for="AddressModel.Building"></span>
+    </div>
+    <div>
+        <label>Apartment</label>
+        <input asp-for="AddressModel.Apartment">
+        <span asp-validation-for="AddressModel.Apartment"></span>
+    </div>
+    <div>
+        <label>Entrance</label>
+        <input asp-for="AddressModel.Entrance">
+        <span asp-validation-for="AddressModel.Entrance"></span>
+    </div>
+    <div>
+        <label>Room</label>
+        <input asp-for="AddressModel.Room">
+        <span asp-validation-for="AddressModel.Room"></span>
+    </div>
+
+    <button type="submit">Save</button>
+
+    @if (Model.AddressExists)
+    {
+        <button type="submit" asp-page-handler="Delete" asp-route-id="@RouteData.Values["id"]">
+            Delete Address
+        </button>
+    }
+</form>
+
+<a asp-page="/Features/Clients/Pages/Details" asp-route-id="@RouteData.Values["id"]">
+    Back to Details
+</a>
