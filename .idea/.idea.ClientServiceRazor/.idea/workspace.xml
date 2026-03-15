@@ -9,41 +9,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9483288-2294-4df1-9c19-fc303e99d813" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Address.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Address.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Details.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Finances.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Finances.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/AdressViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/ClientViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/PhoneViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Middleware/AuthMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/AccessDenied.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/AccessDenied.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/List.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/List.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Login.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Logout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Logout.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Register.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/RegisterViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientServiceRazor/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientServiceRazor/ClientServiceRazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/ClientServiceRazor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Pages/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientServiceRazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/bin/Debug/net10.0/ClientServiceRazor.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ClientServiceRazor.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ref/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/ref/ClientServiceRazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/refint/ClientServiceRazor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/refint/ClientServiceRazor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServiceRazor/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +71,24 @@
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/Pages/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/AdressViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Clients/ViewModels/ClientViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Middleware/AuthMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/Role.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/Status.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/AccessDenied.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/AccessDenied.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/List.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/List.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Logout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Logout.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Pages/Register.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/LoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/PhoneViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Features/Users/ViewModels/RegisterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/AddressTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/ClientTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClientServiceRazor/Tests/FinanceAccountTests.cs" root0="FORCE_HIGHLIGHTING" />
@@ -322,7 +323,16 @@
       <workItem from="1771947814027" duration="4965000" />
       <workItem from="1771965325286" duration="1686000" />
       <workItem from="1772024774904" duration="3614000" />
-      <workItem from="1772138370534" duration="2539000" />
+      <workItem from="1772138370534" duration="2579000" />
+      <workItem from="1772284389084" duration="549000" />
+      <workItem from="1772726583000" duration="6962000" />
+      <workItem from="1772735039485" duration="1829000" />
+      <workItem from="1772812719772" duration="1881000" />
+      <workItem from="1772830640599" duration="1000" />
+      <workItem from="1772837756448" duration="13000" />
+      <workItem from="1772837829614" duration="25000" />
+      <workItem from="1772838250737" duration="228000" />
+      <workItem from="1773587072206" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="homeworks done">
       <option name="closed" value="true" />
@@ -356,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770570800422</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homeworks2 done">
+      <option name="closed" value="true" />
+      <created>1772148151920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772148151920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +388,8 @@
     <MESSAGE value="add initial project files and configuration for ClientServiceRazor" />
     <MESSAGE value="update .gitignore and workspace.xml for improved file management and IDE settings" />
     <MESSAGE value="refactor database schema and update migration files for improved structure and constraints" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor database schema and update migration files for improved structure and constraints" />
+    <MESSAGE value="homeworks2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeworks2 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

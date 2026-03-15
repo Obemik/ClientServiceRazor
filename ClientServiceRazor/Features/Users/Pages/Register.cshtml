@@ -1,0 +1,35 @@
+﻿@page
+@model ClientServiceRazor.Features.Users.Pages.Register
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Реєстрація";
+}
+<h2>Реєстрація</h2>
+<form method="post">
+    @Html.AntiForgeryToken()
+    <div>
+        <label>Логін:</label>
+        <input asp-for="Input.Login"/>
+        <span asp-validation-for="Input.Login" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Input.Email"/>
+        <span asp-validation-for="Input.Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Пароль:</label>
+        <input asp-for="Input.Password" type="password"/>
+        <span asp-validation-for="Input.Password" class="text-danger"></span>
+    </div>
+    <div>
+        <label>Підтвердження пароля:</label>
+        <input asp-for="Input.ConfirmPassword" type="password"/>
+        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+    </div>
+    <button type="submit">Зареєструватися</button>
+</form>
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p>@Model.Message</p>
+}

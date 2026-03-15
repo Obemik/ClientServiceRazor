@@ -10,8 +10,6 @@
       <Folder Include="Features\Clients\Data\" />
       <Folder Include="Features\Clients\Services\" />
       <Folder Include="Features\Users\Data\" />
-      <Folder Include="Features\Users\Pages\" />
-      <Folder Include="Features\Users\Services\" />
       <Folder Include="Migrations\" />
     </ItemGroup>
 

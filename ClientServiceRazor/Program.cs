@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ClientServiceRazor.Data;
+using ClientServiceRazor.Features.Users.Middleware;
+using ClientServiceRazor.Features.Users.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -57,6 +59,22 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+// Додавання кешу в оперативній пам’яті
+builder.Services.AddDistributedMemoryCache();
+// Підключення механізму сесій
+builder.Services.AddSession(options =>
+{
+    // Час неактивності сесії до її завершення
+    options.IdleTimeout = TimeSpan.FromHours(1);
+    // Заборона доступу до cookie через JavaScript
+    options.Cookie.HttpOnly = true;
+    // Cookie є необхідним для роботи сайту (не потребує підтвердження)
+    options.Cookie.IsEssential = true;
+});
+// Реєстрація сервісу користувачів у контейнері залежностей
+builder.Services.AddScoped<UserService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -66,6 +84,9 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseSession();
+app.UseAuth();
 
 app.UseHttpsRedirection();
 
